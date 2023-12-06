@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap'); */
+
+@font-face {
+  font-family: Moranga;
+  src: url(./Fonts/moranga.ttf);
+}
+
+@font-face {
+  font-family: Gilroy;
+  src: url(./assets/Fonts/Gilroy-Bold.otf);
+}
+
+@font-face {
+  font-family: Gilroy;
+  src: url(./assets/Fonts/Gilroy-Semibold.otf);
+}
+
+@font-face {
+  font-family: Gilroy;
+  src: url(./assets/Fonts/Gilroy-Medium.otf);
+}
+
+* {
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: "Gilroy";
+}
+
+::selection {
+  color: rgb(232, 145, 47);
+}
